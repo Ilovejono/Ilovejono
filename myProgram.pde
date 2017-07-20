@@ -58,11 +58,10 @@ class Ball extends Entity{
   
   Ball(int x, int y) {
     super(x, y); 
-    int num = (int) random(0,4);
+    int num = (int) random(0,3);
     if (num == 0) img = loadImage("ball.png");
     else if (num == 1) img = loadImage("money.png");
     else if (num == 2) img = loadImage("face1.png");
-    else img = loadImage("face2.png");
   }
   
   void stickMouse() {
