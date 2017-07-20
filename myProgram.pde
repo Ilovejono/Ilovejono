@@ -1,4 +1,4 @@
-/* @pjs preload="data/ball.png","data/face1.png","data/face2.png", "data/hoop.png", "data/money.png"; */
+
 
 Ball current;
 Goal goal;
